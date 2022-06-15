@@ -1,0 +1,57 @@
+body{
+    max-width: 1024px;
+    margin: 100px auto; /* outer spacing, centers our content*/
+
+    font-size: 30px;
+    font-family: Verdana;
+    background-color: lightblue;
+
+    /* To put the background image covering the entire webpage */
+    background-image: url('screen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+input,button{
+    font-size: inherit; /* either you can define the parameters separaterly or inherit from the body tag*/
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 2px; /*inner spacing of input and button tags*/
+}
+
+button{
+    color: coral;
+}
+/* class selector */
+.style li{
+    padding: 10px;
+}
+
+/* pseudo selector */
+/* colors only odd rows */
+.style li:nth-child(odd)
+{background-color: aqua;}
+
+
+.style li:nth-child(even)
+{background-color:beige;}
+
+/* color shown when hovering over a link */
+a:hover{
+    color: purple;
+}
+
+a{  color: coral;
+    transition: all 1s;
+    font-style: italic;
+    font-weight: bold;
+}
+
+img{
+    height: 180px;
+    margin: auto;
+}
+
+
+h1,h2,p{color: aliceblue;}
