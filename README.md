@@ -1,2 +1,4 @@
-# recommender_movies
+# NMF based movie recommender system
+
 repo
+Non-negative matrix factorization
